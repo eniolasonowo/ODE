@@ -21,6 +21,11 @@ async function main(datacenter:string){
 
 
 const datacenterLocation = ""
-main(datacenterLocation)
+//main(datacenterLocation)
+try{
+    main(datacenterLocation)
+}catch(err:any){
+    console.log(err)
+}
 
 
