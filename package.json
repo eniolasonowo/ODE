@@ -5,7 +5,7 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
-    "start": "npx ts-node src/start.ts"
+    "start": "NODE_OPTIONS='--max-old-space-size=4096' ts-node src/analyse.ts"
   },
   "devDependencies": {
     "@types/node": "^18.13.0",
